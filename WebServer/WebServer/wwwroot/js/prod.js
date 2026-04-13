@@ -468,40 +468,68 @@ function initQuantitySelector() {
 
 function initTabs() {
     const tabBtns = document.querySelectorAll('.tab-btn');
-    const tabPanes = document.querySelectorAll('.tab-content .tab-pane');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    console.log('initTabs: найдено кнопок:', tabBtns.length, 'панелей:', tabPanes.length);
 
     if (!tabBtns.length || !tabPanes.length) return;
 
+    // Убедимся, что стили для табов добавлены
     if (!document.querySelector('#tab-styles')) {
         const style = document.createElement('style');
         style.id = 'tab-styles';
         style.textContent = `
             .tab-pane {
                 display: none;
-                animation: fadeIn 0.3s ease;
             }
             .tab-pane.active {
                 display: block;
+            }
+            .tab-btn {
+                cursor: pointer;
             }
         `;
         document.head.appendChild(style);
     }
 
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', function () {
-            const tabId = this.getAttribute('data-tab');
-
-            tabBtns.forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-
-            tabPanes.forEach(pane => {
-                pane.classList.remove('active');
-                if (pane.id === tabId) {
-                    pane.classList.add('active');
-                }
-            });
-        });
+    // Сначала скрываем все панели, кроме активной
+    tabPanes.forEach(pane => {
+        pane.style.display = pane.classList.contains('active') ? 'block' : 'none';
     });
+
+    tabBtns.forEach(btn => {
+        // Удаляем старые обработчики, чтобы избежать дублирования
+        btn.removeEventListener('click', handleTabClick);
+        btn.addEventListener('click', handleTabClick);
+    });
+
+    function handleTabClick(e) {
+        const btn = e.currentTarget;
+        const tabId = btn.getAttribute('data-tab');
+        
+        console.log('Клик по вкладке:', tabId);
+
+        // Убираем active со всех кнопок
+        tabBtns.forEach(b => {
+            b.classList.remove('active');
+        });
+        btn.classList.add('active');
+
+        // Скрываем все панели
+        tabPanes.forEach(pane => {
+            pane.classList.remove('active');
+            pane.style.display = 'none';
+        });
+
+        // Показываем нужную панель
+        const targetPane = document.getElementById(tabId);
+        if (targetPane) {
+            targetPane.classList.add('active');
+            targetPane.style.display = 'block';
+        } else {
+            console.error('Панель не найдена:', tabId);
+        }
+    }
 }
 
 function initAddToCart() {
