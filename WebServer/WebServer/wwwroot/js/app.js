@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initProductTooltips();
 });
 
-const API_BASE_URL = 'http://45.131.214.123:7070/api';
+const API_BASE_URL = 'http://coffee-frontend-uckkvg-dde3a2-45-131-214-123.traefik.me/api';
 
 let currentProducts = [];
 let filters = {
@@ -748,7 +748,7 @@ function displayProducts(products) {
                 <div class="product-card" style="background: url('${product.photo}') no-repeat center center; background-size: cover;">
                 </div>
                 <div class="product-info">
-                    <a href="http://45.131.214.123:7070/product/${encodedName}" class="product-name-link">
+                    <a href="http://coffee-frontend-uckkvg-dde3a2-45-131-214-123.traefik.me/product/${encodedName}" class="product-name-link">
                         <p class="product-name">${product.name}</p>
                     </a>
                     <p class="product-description">${product.description || ''}</p>
@@ -870,7 +870,7 @@ function initProductTooltips() {
         
         const encodedName = encodeURIComponent(productName);
         
-        fetch(`http://45.131.214.123:7070/product/${encodedName}`, {
+        fetch(`http://coffee-frontend-uckkvg-dde3a2-45-131-214-123.traefik.me/product/${encodedName}`, {
             signal: abortController.signal,
             method: 'GET',
             headers: {
