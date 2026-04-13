@@ -1,0 +1,260 @@
+﻿@model WebServer.Models.CatalogItem
+@{
+    ViewData["Title"] = $"{Model.Name} - Brewtiful";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Name - Brewtiful</title>
+
+    <meta name="product-id" content="@Model.Id">
+    <meta name="product-name" content="@Model.Name">
+
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/product.css" asp-append-version="true">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="product.css">
+
+    <script>
+        window.productCatalogId = @Model.Id;
+        console.log('Product ID из Razor:', window.productCatalogId);
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="brand-name">Brewtiful</div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li>
+                            <a class="catalog-dropdown-btn">Каталог </a>
+                            <div class="dropdown-menu">
+                                <a href="/coffee">☕ Кофе</a>
+                                <a href="/tea">🍵 Чай</a>
+                                <a href="/desserts">🍰 Десерты</a>
+                            </div>
+                        </li>
+                        <li><a href="/aboutus">О нас</a></li>
+                        <li><a href="/#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="/favorites" class="favorites-btn">🤎</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <div class="container">
+            <div class="product-layout">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="@Model.Photo" alt="@Model.Name" id="mainProductImage">
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h1 class="product-title">@Model.Name</h1>
+
+                    <div class="product-rating">
+                        <div class="stars">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                if (i <= Math.Floor(Model.Stars))
+                                {
+                                    <span class="star filled">★</span>
+                                }
+                                else if (i == Math.Ceiling(Model.Stars) && Model.Stars % 1 >= 0.5)
+                                {
+                                    <span class="star half">★</span>
+                                }
+                                else
+                                {
+                                    <span class="star">★</span>
+                                }
+                            }
+                            <span class="rating-value">@Model.Stars.ToString("F1")</span>
+                        </div>
+                    </div>
+
+                    <div class="product-price">
+                        <span class="current-price">@Model.Cost ₽</span>
+                    </div>
+
+                    <div class="product-description">
+                        <p>@Model.Description</p>
+                    </div>
+
+                    <div class="product-ingredients">
+                        <p class="ingredients-title">Состав:</p>
+                        <ul>
+                            @if (!string.IsNullOrEmpty(Model.Ingredients))
+                            {
+                                var ingredients = Model.Ingredients.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                                foreach (var ingredient in ingredients)
+                                {
+                                    <li>@ingredient.Trim()</li>
+                                }
+                            }
+                        </ul>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(Model.Sizes))
+                    {
+                        var sizes = Model.Sizes.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                        <div class="product-size">
+                            <p class="ingredients-title">Размер:</p>
+                            <div class="size-options">
+                                @foreach (var size in sizes)
+                                {
+                                    var sizeTrimmed = size.Trim();
+                                    <label class="size-option @(sizeTrimmed == "M" ? "active" : "")" data-size="@sizeTrimmed" data-price="@Model.Cost">
+                                        <input type="radio" name="size" value="@sizeTrimmed" @(sizeTrimmed == "M" ? "checked" : "")>
+                                        <span class="size-badge">@sizeTrimmed</span>
+                                        <span class="size-info">
+                                            @(sizeTrimmed == "S" ? "250 мл" : sizeTrimmed == "M" ? "350 мл" : "450 мл")
+                                        </span>
+                                        <span class="size-price">@Model.Cost ₽</span>
+                                    </label>
+                                }
+                            </div>
+                        </div>
+                    }
+
+                    <div class="product-actions">
+                        <button class="add-to-favorites-btn" id="addToFavorites">
+                            <span class="favorite-icon">♡</span>
+                            <span class="favorite-text">В избранное</span>
+                        </button>
+                    </div>
+
+                    <div class="product-features">
+                        <div class="feature">
+                            <span class="feature-icon">⏰</span>
+                            <span class="feature-text">Приготовим за 5 минут</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🌱</span>
+                            <span class="feature-text">Возможность замены на растительное молоко</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-details">
+                <div class="details-tabs">
+                    <button class="tab-btn active" data-tab="description">Описание</button>
+                    <button class="tab-btn" data-tab="nutrition">Пищевая ценность</button>
+                    <button class="tab-btn" data-tab="reviews">Отзывы</button>
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="description">
+                        <h2>О @Model.Name.ToLower()</h2>
+                        <p>@Model.Description</p>
+                        @if (!string.IsNullOrEmpty(Model.Ingredients))
+                        {
+                            <p>В составе: @Model.Ingredients</p>
+                        }
+                    </div>
+
+                    <div class="tab-pane" id="nutrition">
+                        <h2>Пищевая ценность @Model.Name.ToLower() на 100 мл</h2>
+                        <table class="nutrition-table">
+                            <tr>
+                                <td>Энергетическая ценность</td>
+                                <td>@(Model.Cost / 6) ккал</td>
+                            </tr>
+                            <tr>
+                                <td>Белки</td>
+                                <td>@((Model.Cost / 90).ToString("F1")) г</td>
+                            </tr>
+                            <tr>
+                                <td>Жиры</td>
+                                <td>@((Model.Cost / 120).ToString("F1")) г</td>
+                            </tr>
+                            <tr>
+                                <td>Углеводы</td>
+                                <td>@((Model.Cost / 75).ToString("F1")) г</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane" id="reviews">
+                        <h2>Отзывы покупателей</h2>
+
+                        <div class="reviews-loading" id="reviewsLoading">
+                            <div class="loading-spinner"></div>
+                            <p>Загрузка отзывов...</p>
+                        </div>
+
+                        <div class="reviews-container" id="reviewsContainer"></div>
+
+                        <div class="add-review-form">
+                            <h3>Оставить отзыв</h3>
+                            <form id="reviewForm">
+                                <div class="form-group">
+                                    <label for="reviewName">Ваше имя:</label>
+                                    <input type="text" id="reviewName" required placeholder="Введите ваше имя">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="reviewRating">Оценка:</label>
+                                    <div class="rating-input" id="ratingInput">
+                                        <span class="rating-star" data-rating="1">☆</span>
+                                        <span class="rating-star" data-rating="2">☆</span>
+                                        <span class="rating-star" data-rating="3">☆</span>
+                                        <span class="rating-star" data-rating="4">☆</span>
+                                        <span class="rating-star" data-rating="5">☆</span>
+                                    </div>
+                                    <input type="hidden" id="reviewRating" value="0">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="reviewText">Ваш отзыв:</label>
+                                    <textarea id="reviewText" rows="4" required placeholder="Напишите ваш отзыв..."></textarea>
+                                </div>
+
+                                <button type="submit" class="submit-review-btn">Оставить отзыв</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-products">
+                    <p class="section-title">Вам также может понравиться</p>
+                    <div class="products-grid" id="relatedProducts"></div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="javascript:history.back()" class="back-button">← Вернуться к каталогу кофе</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Brewtiful. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="~/js/app.js"></script>
+    <script src="~/js/prod.js"></script>
+
+    <div class="image-modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="" id="modalImage">
+        </div>
+    </div>
+</body>
+</html>

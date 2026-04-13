@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\views\\coffeepage\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\views\\coffeepage\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\wwwroot\\css\\product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\wwwroot\\css\\product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\views\\coffeepage\\prod.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\views\\coffeepage\\prod.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\controllers\\coffeepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\controllers\\coffeepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\wwwroot\\js\\prod.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\wwwroot\\js\\prod.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\webserver\\webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976C929A-727E-4981-B51D-74E8649D1450}|WebServer\\WebServer.csproj|solutionrelative:webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "WebServer\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "WebServer\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAADQFAAAAAAAAAAAcwDkFAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-23T18:36:16.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "RelativeDocumentMoniker": "WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "RelativeToolTip": "WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T18:15:14.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.css",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\css\\product.css",
+              "RelativeDocumentMoniker": "WebServer\\wwwroot\\css\\product.css",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\css\\product.css",
+              "RelativeToolTip": "WebServer\\wwwroot\\css\\product.css",
+              "ViewState": "AgIAAEcCAAAAAAAAAAAYwG0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-23T18:13:50.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "prod.js",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Views\\CoffeePage\\prod.js",
+              "RelativeDocumentMoniker": "WebServer\\Views\\CoffeePage\\prod.js",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Views\\CoffeePage\\prod.js",
+              "RelativeToolTip": "WebServer\\Views\\CoffeePage\\prod.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-23T08:38:11.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "prod.js",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\js\\prod.js",
+              "RelativeDocumentMoniker": "WebServer\\wwwroot\\js\\prod.js",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\wwwroot\\js\\prod.js",
+              "RelativeToolTip": "WebServer\\wwwroot\\js\\prod.js",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-23T08:35:35.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebServer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Models\\User.cs",
+              "RelativeToolTip": "WebServer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:25:47.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Program.cs",
+              "RelativeDocumentMoniker": "WebServer\\Program.cs",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Program.cs",
+              "RelativeToolTip": "WebServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:42:59.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "WebServer\\Controllers\\CatalogController.cs",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "WebServer\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:41:45.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoffeePageController.cs",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Controllers\\CoffeePageController.cs",
+              "RelativeDocumentMoniker": "WebServer\\Controllers\\CoffeePageController.cs",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\youngtravel\\server\\WebServer\\WebServer\\Controllers\\CoffeePageController.cs",
+              "RelativeToolTip": "WebServer\\Controllers\\CoffeePageController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:41:29.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

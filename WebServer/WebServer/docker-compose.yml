@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  coffee:
+    image: postgres:15 
+    container_name: coffee-db
+    restart: on-failure:5
+    environment:
+      POSTGRES_DB: coffee
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      TZ: Europe/Moscow
+    ports:
+      - "5438:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    container_name: backend-coffee
+    restart: on-failure:5
+    ports:
+      - "3000:3000"
+    environment:
+      TZ: Europe/Moscow
+      ConnectionStrings__DefaultConnection: "Server=coffee;Port=5432;Database=coffee;User Id=postgres;Password=root;"
+      ASPNETCORE_URLS: "http://+:3000"
+    depends_on:
+      coffee:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

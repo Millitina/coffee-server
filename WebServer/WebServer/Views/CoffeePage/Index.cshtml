@@ -1,0 +1,204 @@
+﻿@model IEnumerable<WebServer.Models.CatalogItem>
+
+@{
+    ViewData["Title"] = "Brewtiful - Кофе";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/category.css">
+    <script src="~/js/prod.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="brand-name">Brewtiful</div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li>
+                            <a class="catalog-dropdown-btn">Каталог </a>
+                            <div class="dropdown-menu">
+                                <a href="/CoffeePage">☕ Кофе</a>
+                                <a href="/TeaPage">🍵 Чай</a>
+                                <a href="/DessertsPage">🍰 Десерты</a>
+                            </div>
+                        </li>
+                        <li><a href="/Home/About">О нас</a></li>
+                        <li><a href="/#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="/Favorites" class="favorites-btn">🤎</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="category-page">
+        <div class="container">
+            <div class="category-header">
+                <h1 class="category-title">Кофе</h1>
+                <p class="category-description">Насладитесь ароматом свежеобжаренного кофе из отборных зерен. Каждая чашка - это настоящее искусство.</p>
+            </div>
+
+            <div class="search-section">
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <input type="text"
+                               class="search-input"
+                               id="searchInput"
+                               placeholder="Поиск..."
+                               autocomplete="off">
+                        <button class="search-button" id="searchButton">
+                            <span class="search-icon">🔍</span>
+                        </button>
+                    </div>
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+            </div>
+
+            <div class="filters-section">
+                <button class="filters-toggle">Фильтры</button>
+                <div class="filters-content">
+                    <div class="filter-group">
+                        <p class="filter-title">Цена</p>
+                        <div class="price-range">
+                            <div class="dual-range-slider">
+                                <div class="slider-track"></div>
+                                <input type="range" min="0" max="1000" value="0" class="range-slider range-min" id="minSlider">
+                                <input type="range" min="0" max="1000" value="1000" class="range-slider range-max" id="maxSlider">
+                            </div>
+                            <div class="price-values">
+                                <span class="min-value">0₽</span>
+                                <span class="max-value">1000₽</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <p class="filter-title">Оценка</p>
+                        <div class="rating-filter">
+                            <label class="rating-option">
+                                <input type="checkbox" name="rating" value="5">
+                                <span class="rating-stars">★★★★★</span> 5 звезд
+                            </label>
+                            <label class="rating-option">
+                                <input type="checkbox" name="rating" value="4">
+                                <span class="rating-stars">★★★★☆</span> 4+ звезды
+                            </label>
+                            <label class="rating-option">
+                                <input type="checkbox" name="rating" value="3">
+                                <span class="rating-stars">★★★☆☆</span> 3+ звезды
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <p class="filter-title">Размер</p>
+                        <div class="size-filter">
+                            <label class="size-option">
+                                <input type="checkbox" name="size" value="S">
+                                <span class="size-badge">S</span> Маленький
+                            </label>
+                            <label class="size-option">
+                                <input type="checkbox" name="size" value="M">
+                                <span class="size-badge">M</span> Средний
+                            </label>
+                            <label class="size-option">
+                                <input type="checkbox" name="size" value="L">
+                                <span class="size-badge">L</span> Большой
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-actions">
+                        <button class="apply-filters" id="applyFilters">Применить</button>
+                        <button class="reset-filters" id="resetFilters">Сбросить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                @foreach (var item in Model)
+                {
+                    <div class="product-item"
+                         data-id="@item.Id"
+                         data-price="@item.Cost"
+                         data-rating="@(item.Stars)"
+                         data-size="@GetSizeCategory(item.Sizes)"
+                         data-ingredients="@item.Ingredients">
+                        <div class="product-card" style="background: url('@item.Photo') no-repeat center center; background-size: cover;">
+                        </div>
+                        <div class="product-info">
+                            @if (item.Name == "Капучино")
+                            {
+                                <a href="/Product/Details/@item.Id" class="product-name-link">
+                                    <p class="product-name">@item.Name</p>
+                                </a>
+                            }
+                            else
+                            {
+                                <p class="product-name">@item.Name</p>
+                            }
+                            <p class="product-description">@item.Description</p>
+                            <p class="product-price">@item.Cost₽</p>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div style="text-align: center;">
+                <a href="/" class="back-button">← Вернуться на главную</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Brewtiful. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <div class="product-tooltip" id="productTooltip">
+        <div class="tooltip-content">
+            <div class="tooltip-header">
+                <span class="tooltip-name" id="tooltipName"></span>
+                <span class="tooltip-rating" id="tooltipRating">
+                    <span class="stars-container"></span>
+                    <span class="rating-number"></span>
+                </span>
+            </div>
+            <div class="tooltip-sizes" id="tooltipSizes">
+                <span class="tooltip-label">Размеры:</span>
+                <div class="sizes-container"></div>
+            </div>
+            <div class="tooltip-ingredients" id="tooltipIngredients">
+                <span class="tooltip-label">Ингредиенты:</span>
+                <ul class="ingredients-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/coffee-page.js"></script>
+</body>
+</html>
+
+@functions {
+    private string GetSizeCategory(string sizes)
+    {
+        if (string.IsNullOrEmpty(sizes)) return "medium";
+
+        var sizesList = Utils.ParseStringToArray(sizes);
+        if (sizesList.Contains("S")) return "small";
+        if (sizesList.Contains("L")) return "large";
+        return "medium";
+    }
+}
