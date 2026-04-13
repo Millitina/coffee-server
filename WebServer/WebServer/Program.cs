@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
             "http://127.0.0.1:5500",
             "http://localhost:5500",
             "http://45.131.214.123:5550",
-            "http://coffee-frontend-uckkvg-dde3a2-45-131-214-123.traefik.me/",
+            "http://coffee-frontend-uckkvg-dde3a2-45-131-214-123.traefik.me",
             "https://millitina.github.io"
         )
         .AllowAnyMethod()
