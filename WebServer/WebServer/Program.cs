@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
             "http://127.0.0.1:5500",
             "http://localhost:5500",
-            "https://millitina.github.io/coffee/"
+            "https://millitina.github.io"
         )
         .AllowAnyMethod()
         .AllowAnyHeader();
@@ -25,7 +25,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 builder.Services.AddControllersWithViews();
 
-// порт 3000
+// пїЅпїЅпїЅпїЅ 3000
 builder.WebHost.ConfigureKestrel(options =>
 {
     options.ListenAnyIP(3000);
@@ -33,7 +33,7 @@ builder.WebHost.ConfigureKestrel(options =>
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Сервер работает!");
+app.MapGet("/", () => "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 app.UseCors("AllowFrontend");
 
 app.UseStaticFiles();
@@ -44,6 +44,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-Console.WriteLine("Соединение открыто!");
+Console.WriteLine("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 
 app.Run();
