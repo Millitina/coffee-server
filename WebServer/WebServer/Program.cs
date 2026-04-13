@@ -14,6 +14,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
             "http://127.0.0.1:5500",
             "http://localhost:5500",
+            "http://45.131.214.123:5550",
             "https://millitina.github.io"
         )
         .AllowAnyMethod()
