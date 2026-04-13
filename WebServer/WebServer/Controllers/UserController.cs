@@ -12,7 +12,7 @@ namespace WebServer.Controllers
 
         public UserController(IConfiguration configuration)
         {
-            _connectionString = "Server=coffee;Port=5432;Database=coffee;" +
+            _connectionString = "Server=coffee-db-db4lff;Port=5432;Database=coffee;" +
                                "User Id=postgres;Password=root;";
         }
 
