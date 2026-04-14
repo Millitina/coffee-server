@@ -21,4 +21,5 @@ RUN dotnet publish "WebServer.csproj" -c $configuration -o /app/publish /p:UseAp
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY ["WebServer/wwwroot", "/app/wwwroot"]
 ENTRYPOINT ["dotnet", "WebServer.dll"]
