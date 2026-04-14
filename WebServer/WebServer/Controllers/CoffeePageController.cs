@@ -23,7 +23,6 @@ namespace WebServer.Controllers
                 using var conn = new NpgsqlConnection(_connectionString);
                 await conn.OpenAsync();
 
-                // ИСПРАВЛЕНО: используем compound вместо ingredients
                 string sql = "SELECT id, photo, name, stars, cost, compound, sizes, description FROM public.catalog WHERE LOWER(name) = LOWER(@name)";
 
                 using var cmd = new NpgsqlCommand(sql, conn);

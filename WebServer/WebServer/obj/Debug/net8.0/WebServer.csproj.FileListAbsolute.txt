@@ -66,3 +66,4 @@ C:\Users\redbu\OneDrive\Рабочий стол\coffeeсдано\server\WebServe
 C:\Users\redbu\OneDrive\Рабочий стол\coffeeсдано\server\WebServer\WebServer\obj\Debug\net8.0\WebServer.genruntimeconfig.cache
 C:\Users\redbu\OneDrive\Рабочий стол\coffeeсдано\server\WebServer\WebServer\obj\Debug\net8.0\ref\WebServer.dll
 C:\Users\redbu\OneDrive\Рабочий стол\coffeeсдано\server\WebServer\WebServer\obj\Debug\net8.0\WebServer.csproj.Up2Date
+C:\Users\redbu\OneDrive\Рабочий стол\coffeeсдано\server\WebServer\WebServer\obj\Debug\net8.0\WebServer.sourcelink.json

@@ -7,21 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\js\app.js" />
-    <Content Remove="wwwroot\js\prod.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Views\CoffeePage\main.css">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\css\product.css" />
-    <None Include="wwwroot\js\app.js" />
-    <None Include="wwwroot\js\prod.js" />
   </ItemGroup>
 
   <ItemGroup>
