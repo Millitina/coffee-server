@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\webserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:webserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\views\\coffeepage\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:views\\coffeepage\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\views\\coffeepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:views\\coffeepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\compose.debug.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:compose.debug.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|c:\\users\\redbu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\webserver\\webserver\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{EF06045D-A18F-4F7B-790D-8A9A1CD604E1}|WebServer.csproj|solutionrelative:wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -27,38 +63,155 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WebServer",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\WebServer.csproj",
+              "RelativeDocumentMoniker": "WebServer.csproj",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\WebServer.csproj",
+              "RelativeToolTip": "WebServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T05:54:51.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CoffeePage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Index.cshtml",
+              "RelativeToolTip": "Views\\CoffeePage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T05:52:47.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "RelativeDocumentMoniker": "Views\\CoffeePage\\Product.cshtml",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Views\\CoffeePage\\Product.cshtml",
+              "RelativeToolTip": "Views\\CoffeePage\\Product.cshtml",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAmwAgBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T05:52:46.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T05:52:34.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T05:52:34.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T05:48:29.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "compose.debug.yaml",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\compose.debug.yaml",
+              "RelativeDocumentMoniker": "compose.debug.yaml",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\compose.debug.yaml",
+              "RelativeToolTip": "compose.debug.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T05:52:30.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T05:52:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T05:48:30.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\wwwroot\\js\\app.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\app.js",
               "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\wwwroot\\js\\app.js",
               "RelativeToolTip": "wwwroot\\js\\app.js",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-04-14T05:37:16.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CoffeePageController.cs",
               "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Controllers\\CoffeePageController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoffeePageController.cs",
               "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Controllers\\CoffeePageController.cs",
               "RelativeToolTip": "Controllers\\CoffeePageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T05:36:20.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "CatalogController.cs",
               "DocumentMoniker": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Controllers\\CatalogController.cs",
               "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
               "ToolTip": "C:\\Users\\redbu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\coffee\u0441\u0434\u0430\u043D\u043E\\server\\WebServer\\WebServer\\Controllers\\CatalogController.cs",
               "RelativeToolTip": "Controllers\\CatalogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T05:32:44.596Z",
               "EditorCaption": ""
